@@ -1,5 +1,4 @@
-import java.sql.SQLOutput;
-import java.util.Scanner;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -10,6 +9,7 @@ public class Main {
         addTwoNumbers(3, 5);
         Teszt t1 = new Teszt();
         Teszt t2 = new Teszt();
+//        Teszt.gg();
     }
 
 
