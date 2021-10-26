@@ -1,21 +1,25 @@
 import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        int[][] tryItOut = new int[5][6];
-        int ertek = 0;
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 6; j++) {
-                    ertek = ertek +1;
-                    tryItOut[i][j] = ertek;
-                System.out.print(tryItOut[i][j] + " ");
-            }
-            System.out.println();
+//Main objektum = new Main;
+//objektum.addTwoNumbers(3,5);
 
-
-        }
+        addTwoNumbers(3, 5);
+        Teszt t1 = new Teszt();
+        Teszt t2 = new Teszt();
     }
+
+
+    public static void addTwoNumbers(int a, int b) {
+        System.out.println(a + b);
+    }
+    public static void addTwoNumbers(double a, double b){
+        System.out.println(a+b);
+    }
+
 
 }
 
